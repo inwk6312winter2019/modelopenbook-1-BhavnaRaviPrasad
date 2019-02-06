@@ -18,7 +18,7 @@ print(list_ifname_ip(y))
 
 def replace_str():
     myfile = open("running-config.cfg","r")
-    newfile = open("running-config-new.cfg","w")
+    newfile = open("new-running-config.cfg","w")
     for my in myfile:
         mylist = my.split()
         if "255.255.0.0" in my:
